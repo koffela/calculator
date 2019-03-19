@@ -1,0 +1,8 @@
+extends base.pug
+
+block content
+		form(action="/addform")
+			input(type="number", name="first")
+			input(type="number", name="second")
+			input(type="submit", name="add", value = "add")
+			

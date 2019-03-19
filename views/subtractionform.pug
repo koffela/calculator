@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+		form(action="/subtractionform")
+			input(type="number", name="first")
+			input(type="number", name="second")
+			input(type="submit", name="subtract", value = "subtract")

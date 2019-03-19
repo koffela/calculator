@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+		form(action="/divisionform")
+			input(type="number", name="first")
+			input(type="number", name="second")
+			input(type="submit", name="divide", value = "divide")
